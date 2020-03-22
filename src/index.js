@@ -1,15 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import ProfileEntry from './ProfileEntry';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ProfileEntry name="Andy" job="Software Engineer" country="UK"/>
-    <ProfileEntry name="Rachel" job="Accountant" country="Germany"/>
-    <ProfileEntry name="Ellen" job="Software Engineer" country="UK"/>
-    <ProfileEntry name="Colin" job="Accountant" country="Germany"/>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,4 +1,5 @@
 import React from 'react';
+import avatar from './avatar.png';
 import './ProfileEntry.css'
 
 const countryFlagMapping = [
@@ -26,7 +27,7 @@ function ProfileEntry(props) {
       <div 
         className="avatar"
         style={{
-          background: `url(${props.img} || 'avatar.png')`,
+          background: `url(${props.img} || ${avatar})`,
           backgroundSize: 'cover'
         }}
         alt="avatar"
