@@ -1,0 +1,31 @@
+.name {
+  font-size: larger;
+}
+
+.profileEntry {
+  padding: 20px;
+  border: 1px solid #efe9e9;
+  box-shadow: 2px 2px 3px #efe9e9;
+  width: 200ox;
+  height: 120px;
+  margin: 5px;
+  border-radius: 10px;
+  display: inline-flex;
+}
+
+.entryTitle {
+  font-size: small;
+}
+
+.entryText {
+  padding: 10px;
+  width: 50%;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 200px;
+  flex-grow: 0;
+  margin-top: 10px;
+}
